@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: skyblue;
+}
+
+#Form_PlaceHolder{
+    background-color: white;
+    position: fixed;
+    top:30%;
+    left:30%;
+    padding:20px;
+    height:40%;
+    width:40%;
+    border-radius: 12px;
+}
+
+
+#Form_PlaceHolder form{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    position: absolute;
+    left:30%;
+    top:40%;
+    width:40%;
+}
+
+#inputCity{
+    border-radius: 12px;
+    padding:20px;
+    border:2px solid green;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#SubmitButton{
+    padding:12px;
+    border-radius: 10px;
+    background-color: green;
+    color:white;
+}
+
+#SubmitButton:hover{
+    background-color: red;
+    transform:scale(1.15);
+    opacity:0.8;
+    
+}
+
