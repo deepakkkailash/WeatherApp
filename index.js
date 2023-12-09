@@ -65,6 +65,7 @@ submit.addEventListener("click", (event) => {
         let div = createElem();
         div.innerHTML=`
                         <img src=${src} alt="weatherImage" style="width:20%">
+                        <span style="alignItems:Center"><strong>${weather_right_now}</strong></span>
                         <span><strong>Temp: ${current_temp}</strong></span>
                         <span> <strong>Humidity: ${humidity}%</strong></span>
         `;
