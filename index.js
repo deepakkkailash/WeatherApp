@@ -6,12 +6,12 @@ function createElem(){
     let div = document.createElement("div");
     div.id = "weather_content";
     div.style.position = "absolute";
-    div.style.top = "30%";
+    div.style.top = "20%";
     div.style.left = "20%";
     div.style.background = "black";
     div.style.color = "white";
-    div.style.width = "50%";
-    div.style.height = "40%";      
+    div.style.width = "60%";
+    div.style.height = "60%";      
     div.style.padding = "40px";
     div.style.alignItems = "center";  
     div.style.borderRadius = "12px";
@@ -26,7 +26,7 @@ function createGoback(){
     goback.id="goback_button";
     goback.innerHTML = "GO BACK!"
     goback.style.position = "absolute";
-    goback.style.top = "80%";
+    goback.style.top = "90%";
     goback.style.left = "70%";
     goback.style.borderRadius = "12px";
     goback.style.padding = "2px";
